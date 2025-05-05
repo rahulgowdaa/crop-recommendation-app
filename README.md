@@ -42,7 +42,7 @@ This is a modern, animated, and interactive web application built with Flask tha
 1. **Clone the repository**
 
 ```bash
-git clone <repo-url>
+git clone <https://github.com/rahulgowdaa/crop-recommendation-app.git>
 cd crop-app
 ```
 
