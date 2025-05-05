@@ -1,0 +1,39 @@
+# Create a basic .gitignore file for Python + Flask projects
+
+gitignore_content = '''
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Environment files
+.env.*
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Model and plot outputs (optional)
+*.pkl
+*.png
+*.html
+'''
+
+gitignore_path = "/mnt/data/crop-recommendation-app/.gitignore"
+with open(gitignore_path, "w") as f:
+    f.write(gitignore_content)
+
+gitignore_path
