@@ -81,23 +81,10 @@ dmypy.json
 # Logs
 *.log
 
-# Images & model outputs
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.bmp
-*.tiff
-*.svg
-
 # Model files
 *.pkl
 *.h5
 *.joblib
-
-# Plotly/HTML chart files
-*.html
-static/charts/
 
 # Node
 node_modules/
