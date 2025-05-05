@@ -1,25 +1,108 @@
-
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-venv/
-.env
+# C extensions
+*.so
 
-# IDE / Editor settings
-.vscode/
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Virtualenv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Flask specific
+instance/
+.webassets-cache
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
 .idea/
 
-# MacOS
+# VS Code
+.vscode/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Mac system files
 .DS_Store
 
-*.log
-
+# dotenv
+.env
 .env.*
 
-.ipynb_checkpoints/
+# Logs
+*.log
 
-*.pkl
+# Images & model outputs
 *.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.svg
+
+# Model files
+*.pkl
+*.h5
+*.joblib
+
+# Plotly/HTML chart files
 *.html
-'''
+static/charts/
+
+# Node
+node_modules/
+
+# Misc
+*.bak
+*.tmp
+*.swp
